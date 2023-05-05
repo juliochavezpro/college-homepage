@@ -15,24 +15,23 @@
 
 <body>
     <header>
-        <div id="logo-and-search">
-            <img src="./images/UNEFlogo.png">
-            <div id="header-right">
-                <p class="top-menu">
-                    <a href="index.html">Students</a> |
-                    <a href="index.html">Faculty & Staff</a> |
-                    <a href="index.html">Students</a> |
-                    <a href="index.html">Alumni</a> | 
-                    <a href="index.html">Community</a> | 
-                    <a href="index.html">Give</a> | 
-                    <a href="index.html">Portal</a>
-                </p>
-                <div class="search-area">
-                    <input type="text" id="searchbar">
-                    <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-                <a class="az-index" href="index.html">A-Z Index</a>
+        <a class="desktop-only" href="index.html"><img src="./images/UNEFlogo.png"></a>
+        <a class="mobile-only" href="index.html"><img src="./images/UNEFletters.png"></a>
+        <div id="header-right">
+            <div class="top-menu">
+                <a href="index.html">Students</a> |
+                <a href="index.html">Faculty & Staff</a> |
+                <a href="index.html">Students</a> |
+                <a href="index.html">Alumni</a> | 
+                <a href="index.html">Community</a> | 
+                <a href="index.html">Give</a> | 
+                <a href="index.html">Portal</a>
             </div>
+            <div class="search-area">
+                <input type="text" id="searchbar">
+                <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a class="az-index" href="index.html">A-Z Index</a>
         </div>
     </header>
 
@@ -72,7 +71,7 @@
             <h3 class="story-headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button type="button">Read More</button>
+            <button class="blue-button" type="button">Read More</button>
         </div>
 
         <div class="story">
@@ -80,7 +79,7 @@
             <h3 class="story-headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button type="button">Read More</button>
+            <button class="blue-button" type="button">Read More</button>
         </div>
 
         <div class="story">
@@ -88,20 +87,123 @@
             <h3 class="story-headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button type="button">Read More</button>
+            <button class="blue-button" type="button">Read More</button>
         </div>
     </div>
     
-    <div class="stats"></div>
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-white-text">A</div>
+            <div class="stat-blue-text">TOP</div>
+            <div class="stat-white-text">Southeast</div>
+            <div class="stat-white-text">University</div>
+            <div class="stat-credit">College News Report</div>
+        </div>
 
+        <div class="stat">
+            <div class="stat-white-text desktop-only">&nbsp;</div>
+            <div class="stat-blue-text">2022</div>
+            <div class="stat-white-text">Award</div>
+            <div class="stat-white-text">Winning</div>
+            <div class="stat-credit">College News Report</div>
+        </div>
 
-    <div class="news-and-events">
-        <div class="newsroom"></div>    
-        <div class="events"></div>
+        <div class="stat">
+            <div class="stat-white-text">A</div>
+            <div class="stat-blue-text">BEST</div>
+            <div class="stat-white-text">in North</div>
+            <div class="stat-white-text">Florida</div>
+            <div class="stat-credit">College News Report</div>
+        </div>
     </div>
+
+    <h2 class="news-and-events">UNEF News and Events</h2>
+    <div class="news-events-div">
+        <div class="newsroom">
+            <h2>UNEF Newsroom</h2>
+            <div class="newsroom-story">
+                <img src="./images/story-grads.png">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Lorem ipsum dolor sit amet.</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            
+            <div>&nbsp;</div>
+
+            <div class="newsroom-story">
+                <img src="./images/story-grads.png">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Lorem ipsum dolor sit amet.</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+
+            <div>&nbsp;</div>
+
+            <a href="index.html">View all News</a>
+        </div>    
+
+
+        <div class="events">
+            <h2>UNEF Calendar</h2>
+            <div class="calendar-event">
+                <div class="event-square">
+                    <div class="event-month">May</div>
+                    <div class="event-day">19</div>
+                </div>
+                <div class="event-details">
+                    <h3>Softball vs UF</h3>
+                    <div>Friday, May 19</div>
+                    <div>7:00 pm</div>
+                </div>
+            </div>
+            
+            <div class="calendar-event">
+                <div class="event-square">
+                    <div class="event-month">May</div>
+                    <div class="event-day">20</div>
+                </div>
+                <div class="event-details">
+                    <h3>Summer Classes Begin</h3>
+                    <div>Friday, May 20</div>
+                    <div>7:00 pm</div>
+                </div>
+            </div>
+
+            <div class="calendar-event">
+                <div class="event-square">
+                    <div class="event-month">May</div>
+                    <div class="event-day">29</div>
+                </div>
+                <div class="event-details">
+                    <h3>University Closed - Memorial Day</h3>
+                    <div>Friday, May 29</div>
+                    <div>7:00 pm</div>
+                </div>
+            </div>
+
+            <div>&nbsp;</div>
+
+            <a href="index.html">View all Events</a>
+        </div>
+    </div>
+
     <div class="expression">
-
+        <div class="expression-content">
+            <h2 class="expression-title">Express Yourself</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="blue-button" type="button">Learn More</button>
     </div>
+
+
     <div class="schools-grid"></div>
     <div class="social-media"></div>
     <div class="footer"></div>

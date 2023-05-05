@@ -275,9 +275,22 @@ header > a > img {max-width: 35%;}
 
 .social-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px;
+}
+
+.footer {
+    background-color: #0A233F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > img {
+    max-height: 150px;
+    max-width: auto;
 }
 
 @media (max-width: 600px) {

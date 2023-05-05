@@ -5,6 +5,55 @@ body {
     height: 100%;
 }
 
+.story-headline {
+    color: #11223A;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #00B2E2;
+    padding: 0px 0px 10px 0px;
+}
+
+button {
+    border-style: none;
+    background-color: #11223A;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: #00B2E2;
+    color: #11223A;
+}
+
+.featured-stories {
+    color: #11223A;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.stories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.story > img {
+    width: 100%;
+    height: auto;
+}
+
 header {
     background-color: #11223A;
     color: white;
@@ -37,26 +86,26 @@ header {
     color: white;
 }
 
-#top-menu {
+.top-menu {
     font-size: .75rem;
     padding: 5px 0px;
 }
 
-#top-menu > a:link {
+.top-menu > a:link {
     text-decoration: none;
     color: white;
 }
 
-#top-menu > a:visited {
+.top-menu > a:visited {
     color: white;
 }
 
-#az-index {
+.az-index {
     font-size: .75rem;
     padding: 5px 0px 0px 0px;
 }
 
-#sub-menu {
+.sub-menu-desktop {
     background-color: rgb(233, 233, 233);
     display: flex;
     justify-content: center;
@@ -116,6 +165,7 @@ header {
 
 .links-bar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     background: #11223A;
@@ -131,15 +181,38 @@ header {
     font-size: 1.3rem;
 }
 
+.bar-link > h2 {
+    color: #00B2E2;
+}
+
 @media (max-width: 600px) {
+    .top-menu {
+        display: none;
+    }
+    
+    .sub-menu-desktop {
+        display: none;
+    }
+    
     .hero-image {
         display: flex;
+        height: auto;
     }
     
     .hero-text {
         font-size: 1.2rem;
-        position: relative;
+        position: static;
+        transform: translate(0%, 0%);
         text-align: left;
         padding: 20px;
+    }
+
+    .search-area {
+        display: none;
+    }
+
+
+    .az-index {
+        display: none;
     }
 }

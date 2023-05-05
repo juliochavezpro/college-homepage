@@ -156,7 +156,7 @@ header > a > img {max-width: 35%;}
     color: #0A233F;
 }
 
-.featured-stories, .news-and-events, .expression-title {
+.featured-stories, .news-and-events, .expression-title, .colleges, .social-media {
     color: #0A233F;
     text-align: center;
     font-size: 3rem;
@@ -259,9 +259,26 @@ header > a > img {max-width: 35%;}
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0px 40px 0px;
 }
 
 .expression-content {width: 60%; text-align: center;}
+
+.college-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-grid > img {width: 400px;}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
 
 @media (max-width: 600px) {
     .top-menu {display: none;}
@@ -298,6 +315,11 @@ header > a > img {max-width: 35%;}
     .stat-blue-text {font-size: 3rem;}
     .stat-white-text {font-size: 1.5rem;}
     .stat-credit {font-size: .5rem;}
+
+    .social-links{
+        display: block;
+        padding: 10px;
+    }
     
     .desktop-only {display: none;}
     .mobile-only {display: block;}

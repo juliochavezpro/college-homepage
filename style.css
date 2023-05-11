@@ -337,12 +337,12 @@ header > a > img {max-width: 35%;}
 
 
 .grid-image {
-    height: 500px;
-    width: 500px;
+    height: 480px;
+    width: 480px;
     filter: grayscale(100%);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 10px;
     display: flex;
     align-items: flex-end;
@@ -353,12 +353,12 @@ header > a > img {max-width: 35%;}
 
 .grid-image:hover {filter: grayscale(0%);}
 
-.grid-image-art {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/story-study.png);}
-.grid-image-business {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-business.jpg);}
-.grid-image-computing {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-computer.jpg);}
-.grid-image-education {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-education.jpg);}
-.grid-image-health {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-science.jpg);}
-.grid-image-hicks {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-honors.jpg);}
+.grid-image-art {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-art.png);}
+.grid-image-business {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-business.png);}
+.grid-image-computing {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-computer.png);}
+.grid-image-education {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-education.png);}
+.grid-image-health {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-science.png);}
+.grid-image-hicks {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/college-honors.png);}
 
 
 .grid-text {

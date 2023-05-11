@@ -337,8 +337,8 @@ header > a > img {max-width: 35%;}
 
 
 .grid-image {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     filter: grayscale(100%);
     background-position: center;
     background-repeat: no-repeat;
